@@ -4,7 +4,7 @@
   text-align: center;
   color: #FF6F61;
   font-family: 'Creepster', cursive;
-  background: #2e2b2b url('../../../public/images/h1.jpg') no-repeat center center;
+  background: #2e2b2b url('../../../public/images/h1.jpg') no-repeat;
   background-size: contain;
   min-height: 100vh;
 }

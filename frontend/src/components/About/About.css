@@ -7,6 +7,9 @@
   background-color: #2e2b2b;
   font-family: 'Creepster', cursive;
   min-height: 100vh;
+  background: #2e2b2b url('../../../public/images/h1.jpg') no-repeat;
+  background-size: contain;
+
 }
 
 .about h1 {
