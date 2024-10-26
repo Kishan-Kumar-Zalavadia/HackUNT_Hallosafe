@@ -1,10 +1,14 @@
 import React from "react";
-
+import "./About.css"
 function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>This is the about page where you can learn more about us.</p>
+    <div className="about">
+      <h1>About Safe Halloween</h1>
+      <p>
+        Our mission is to ensure a fun, safe, and spooky Halloween experience
+        for everyone! This app provides tips, tools, and maps to help families
+        and kids enjoy a safe trick-or-treating night.
+      </p>
     </div>
   );
 }

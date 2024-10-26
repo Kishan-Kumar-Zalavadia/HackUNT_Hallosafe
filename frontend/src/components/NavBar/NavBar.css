@@ -1,5 +1,16 @@
 /* Navbar.css */
 
+/* src/App.css */
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--second-font);
+  background-color: #2e2b2b;
+  color: #ff6f61;
+}
+
 .header {
   /* position: fixed; */
   width: 100%;
