@@ -1,15 +1,15 @@
 import React from "react";
 import "./Home.css";
-// import halloweenWebp from "../../asserts/h2.webp";
-
+import halloweenWebp from "../../asserts/h2.webp";
+import batImage from "../../asserts/bat.png";
 function Home() {
   return (
     <div className="home">
-      {/* <img
+      <img
         src={halloweenWebp}
         alt="Spooky Halloween"
         className="halloween-image"
-      /> */}
+      />
 
       <header className="home-header">
         <h1>🎃 Safe Trick-or-Treating 🎃</h1>
@@ -75,6 +75,14 @@ function Home() {
           </p>
         </div>
       </section>
+      {/* Bats for flying animation */}
+      <div className="bats">
+        <img src={batImage} alt="Bat" className="bat bat1" />
+        <img src={batImage} alt="Bat" className="bat bat2" />
+        <img src={batImage} alt="Bat" className="bat bat3" />
+        <img src={batImage} alt="Bat" className="bat bat4" />
+        <img src={batImage} alt="Bat" className="bat bat5" />
+      </div>
     </div>
   );
 }
