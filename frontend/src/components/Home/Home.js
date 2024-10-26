@@ -1,9 +1,16 @@
 import React from "react";
 import "./Home.css";
+// import halloweenWebp from "../../asserts/h2.webp";
 
 function Home() {
   return (
     <div className="home">
+      {/* <img
+        src={halloweenWebp}
+        alt="Spooky Halloween"
+        className="halloween-image"
+      /> */}
+
       <header className="home-header">
         <h1>🎃 Safe Trick-or-Treating 🎃</h1>
         <p>Making Halloween safer for all ages!</p>
