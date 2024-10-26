@@ -20,18 +20,27 @@
   display: inline-block;
   color: #FFD700;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .safety-tips h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 20px;
 }
 
-.safety-tips ul {
-  list-style: none;
-  padding: 0;
+.tip-section {
+  margin-bottom: 20px;
 }
 
-.safety-tips li {
-  margin: 10px 0;
+.tip-section h3 {
+  font-size: 1.8em;
+  color: #FF6F61;
+  text-shadow: 1px 1px 5px black;
+}
+
+.tip-section p {
+  font-size: 1.1em;
+  color: #FFD700;
+  line-height: 1.5;
 }
