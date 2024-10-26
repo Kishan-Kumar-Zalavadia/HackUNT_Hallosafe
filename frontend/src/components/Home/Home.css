@@ -1,0 +1,37 @@
+/* src/components/Home.css */
+
+.home {
+  text-align: center;
+  color: #FF6F61;
+  font-family: 'Creepster', cursive;
+  background: #2e2b2b url('../../../public/images/h1.jpg') no-repeat center center;
+  background-size: contain;
+  min-height: 100vh;
+}
+
+.home-header {
+  margin-bottom: 30px;
+}
+
+.safety-tips {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  display: inline-block;
+  color: #FFD700;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+}
+
+.safety-tips h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.safety-tips ul {
+  list-style: none;
+  padding: 0;
+}
+
+.safety-tips li {
+  margin: 10px 0;
+}

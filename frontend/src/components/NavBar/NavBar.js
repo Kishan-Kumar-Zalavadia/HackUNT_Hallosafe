@@ -19,7 +19,7 @@ const Navbar = () => {
     <header className="header">
       <nav className="nav container">
         <NavLink to="/" className="nav__logo">
-          Hallo-Safe
+          👻 Hallo-Safe 👻
         </NavLink>
 
         <div
