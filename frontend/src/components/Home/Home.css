@@ -1,0 +1,81 @@
+/* src/components/Home.css */
+
+.home {
+  text-align: center;
+  color: #FF6F61;
+  font-family: 'Creepster', cursive;
+  background: #2e2b2b url('../../../public/images/h1.jpg') no-repeat;
+  background-size: contain;
+  min-height: 100vh;
+}
+
+.home-header {
+  margin-bottom: 30px;
+}
+
+.safety-tips {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  display: inline-block;
+  color: #FFD700;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.safety-tips h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.tip-section {
+  margin-bottom: 20px;
+}
+
+.tip-section h3 {
+  font-size: 1.8em;
+  color: #FF6F61;
+  text-shadow: 1px 1px 5px black;
+}
+
+.tip-section p {
+  font-size: 1.1em;
+  color: #FFD700;
+  line-height: 1.5;
+}
+
+.halloween-image {
+  width: 250px;
+  height: auto;
+  margin-bottom: 20px;
+  border: 5px solid #FF6F61;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+/* src/components/Home.css */
+
+.bats {
+  position: relative;
+background-color: pink;
+}
+
+.bat {
+  position: absolute;
+  width: 100px;
+  /* opacity: 0.8; */
+  animation: fly 10s linear infinite;
+}
+
+.bat1 { animation-delay: 0s; top: 10%; left: -10%; }
+.bat2 { animation-delay: 2s; top: 20%; left: -20%; }
+.bat3 { animation-delay: 4s; top: 30%; left: -30%; }
+.bat4 { animation-delay: 6s; top: 40%; left: -40%; }
+.bat5 { animation-delay: 8s; top: 50%; left: -50%; }
+
+@keyframes fly {
+  0% { transform: translateX(0) translateY(0) scale(0.5); opacity: 0.7; }
+  50% { transform: translateX(200vw) translateY(20px) scale(1); opacity: 1; }
+  100% { transform: translateX(400vw) translateY(-20px) scale(0.8); opacity: 0.5; }
+}
